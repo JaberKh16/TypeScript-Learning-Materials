@@ -29,3 +29,15 @@ let loggedUser = (
 };
 
 loggedUser("JK", "abb22", false);
+
+// arrow function
+const fetchData = (name: string, password: string) => {
+  const userData = {
+    name: name,
+    password: password,
+  };
+
+  return userData;
+};
+
+fetchData("Mr. X", "abb22");
