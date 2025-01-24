@@ -9,6 +9,8 @@ function performAction(name, action) {
     console.log(name);
 }
 var performActionOnString = performAction("TypeScript", 2);
+
+
 // anynomous function
 var loggedUser = function (name, password, isLogged) {
     if (name != undefined && name != "") {
@@ -22,3 +24,5 @@ var loggedUser = function (name, password, isLogged) {
     return isLogged;
 };
 loggedUser("JK", "abb22", false);
+
+

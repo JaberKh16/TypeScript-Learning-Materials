@@ -30,8 +30,8 @@
 let msg: string = "Message for you typescript";
 console.log(msg);
 
-// can't do tyepscript will inform => Type 'number' is not assignable to type 'string'.ts(2322)
-msg = 5;
+// throws exception
+msg = 5; // can't do tyepscript will inform => Type 'number' is not assignable to type 'string'.ts(2322)
 
 // define a number
 let userId: number = 3242.2323;
