@@ -1,4 +1,5 @@
 // Type: interface
+// Identical Properties Interfaces
 interface CarBattery {
   model: string;
   power: number;
