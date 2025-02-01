@@ -14,3 +14,5 @@ class Coder {
     return `Language: ${this.language}`;
   }
 }
+
+export { Coder };

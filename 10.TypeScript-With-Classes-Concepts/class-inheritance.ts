@@ -1,3 +1,5 @@
+import { Coder } from "./class-concepts-in-ts";
+
 class Programmer extends Coder {
   constructor(
     public computer: string,
